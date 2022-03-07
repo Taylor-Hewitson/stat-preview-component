@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+.container{
+    overflow: hidden;
+    position: absolute;
+    width: 1440px;
+    display: flex;
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Inter', 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.card{
+display: flex;
+background-color: hsl(244, 38%, 16%) ;
+margin: 40px;
+position: relative;
+width: 1110px;
+height: 450px;
+border-radius: 10px;
+}
+.image{
+    max-width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    filter: hsl(277, 64%, 61%);
+}
