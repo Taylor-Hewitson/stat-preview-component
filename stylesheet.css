@@ -28,3 +28,22 @@ flex-direction: row-reverse;
     filter: hsl(277, 64%, 61%);
     
 }
+.text-box{
+    margin: 60px;
+    padding-inline-end: 30px;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 60px;
+    left:60px;
+   
+}
+.pad-right{
+    padding-right: 60px;
+
+}
+p{
+   color: hsla(0, 0%, 100%, 0.6);
+}
