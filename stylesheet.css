@@ -11,9 +11,9 @@
     color: hsl(0, 0%, 100%);
 }
 
-.card{
+#card{
 display: flex;
-background-color: hsl(244, 38%, 16%) ;
+background-color: hsl(244, 38%, 16%);
 margin: 170px;
 position: relative;
 width: 1110px;
@@ -25,16 +25,18 @@ flex-direction: row-reverse;
 #color{
     width: 540px;
     height: 450px;
-    border-radius: 10px;
-    background-image: linear-gradient(rgba(10, 20, 30, 0.5),rgba(10, 20, 30, 0.5)) ;
-    background-position: center;
-    background-size: cover;
+    background-color: hsl(277, 77%, 49%) ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 img{
     width: 540px;
     height: 450px;
-    border-radius: 10px;
+    filter: opacity(40%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
     
     
 }
@@ -48,6 +50,7 @@ img{
     position: absolute;
     bottom: 60px;
     left:60px;
+    line-height: 1px;
    
 }
 .pad-right{
@@ -56,4 +59,21 @@ img{
 }
 p{
    color: hsla(0, 0%, 100%, 0.6);
+   line-height: 25px;
+}
+@media  screen and (max-width: 375px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .stats{
+        flex-direction: column;
+        line-height: 1px;
+    }
+    .pad-right{
+        padding-right: 0;
+    }
 }
